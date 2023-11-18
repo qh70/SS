@@ -35,7 +35,6 @@ const Home = () => {
 
   // init
   async function fetchData(setAllSpots) {
-    console.log("start first fetch")
     const res = await fetch("https://strategy-zone.com/api/attractions?page=0")
     const data = await res.json()
     // console.log(data.data)
