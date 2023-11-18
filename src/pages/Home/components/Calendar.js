@@ -47,7 +47,7 @@ const trydates = [
 const Calendar = () => {
 
     useEffect(()=>{
-        fetch("http://44.212.9.178:8000/Jerry/")
+        fetch("http://localhost:8000/Jerry/")
         .then(res => res.json())
         .then(data => {
             console.log(data);
